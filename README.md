@@ -27,7 +27,7 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 ## Intro
 
-> php artisan migrate \n
+> php artisan migrate 
 
 > php artisan db:seed CompanySeeder
 
