@@ -13,6 +13,6 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return view('index',['models'=>app('db')->select('SELECT * FROM users')]);
+$router->get('/companies', function () use ($router) {
+    return view('companies',['models'=>app('db')->select('SELECT * FROM companies')]);
 });
