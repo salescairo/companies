@@ -25,12 +25,22 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 
 
-## Intro
+# Intro
 
-> php artisan migrate 
->
-> php artisan db:seed CompanySeeder
->
-> php -S 127.0.0.1:8000 -t /public
->
-> http://127.0.0.1:8000/companies
+Configure a estrutura básica do banco de dados:
+```
+php artisan migrate
+```
+
+Popule a tabela de empresas com alguns registros
+```
+php artisan db:seed CompanySeeder
+```
+
+Suba o servidor
+```
+php -S 127.0.0.1:8000 -t /public
+``` 
+
+Abra o navegador com a url: http://127.0.0.1:8000/companies
+
